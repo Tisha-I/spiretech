@@ -1,0 +1,8 @@
+:root {
+  --DEEPNAVY: rgba(17, 24, 39, 1);
+  --SOFTSAGE: rgba(183, 215, 168, 1);
+  --WARMOFFWHITE: rgba(247, 247, 242, 1);
+  --SOFTGREY: rgba(232, 235, 230, 1);
+  --CHARCOAL: rgba(55, 65, 81, 1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap');

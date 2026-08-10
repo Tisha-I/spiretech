@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap');
+
+* {
+    box-sizing: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url("./assets/HomeBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+}
+
+.hero h1 {
+    font-family: "Manrope", sans-serif;
+    padding-top: 220px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: var(--CHARCOAL);
+}
+
+.hero h2 {
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.05;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: var(--CHARCOAL);
+}
+
+.hero button {
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.05;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: var(--CHARCOAL);
+    padding: 10px 25px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.hero button:hover {
+    background-color: var(--SOFTSAGE);
+}
+
+.hero button a {
+    color: var(--SOFTSAGE);
+    text-decoration: none;
+}
+.hero button a:hover {
+    color: var(--CHARCOAL);
+    text-decoration: none;
+}
