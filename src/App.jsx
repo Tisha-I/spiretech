@@ -20,7 +20,7 @@ function App() {
               to="/contact"
               className="Herobutton"
             >
-              Take a look at your options here
+              Take a look at your options here...
             </Link>
           </button>
         </div>
