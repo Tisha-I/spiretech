@@ -50,7 +50,7 @@ function App() {
                 >
                   How It Works
                 </Link>
-                {/* <a href="#featured" className="btn btn-primary">Browse Websites <span class="arrow">→</span></a>
+                {/* <a href="#featured" className="btn btn-primary">Browse Websites <span className="arrow">→</span></a>
                 <a href="#why" className="btn btn-outline">How It Works</a> */}
               </div>
             </div>
@@ -60,11 +60,11 @@ function App() {
                 <div className="browser-bar"><span></span><span></span><span></span></div>
                 <div className="browser-body">
                   <div className="bm-line"></div>
-                  <div class="bm-line"></div>
-                  <div class="bm-hero"></div>
-                  <div class="bm-cards">
-                    <div class="bm-card"></div>
-                    <div class="bm-card"></div>
+                  <div className="bm-line"></div>
+                  <div className="bm-hero"></div>
+                  <div className="bm-cards">
+                    <div className="bm-card"></div>
+                    <div className="bm-card"></div>
                   </div>
                 </div>
               </div>
@@ -72,31 +72,31 @@ function App() {
           </div>
         </section>
         <div className="home2">
-          <div class="trust">
-            <div class="wrap trust-grid">
-              <div class="trust-item">
-                <div class="trust-icon">
+          <div className="trust">
+            <div className="wrap trust-grid">
+              <div className="trust-item">
+                <div className="trust-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2" /><path d="M3 9h18" /></svg>
                 </div>
                 <h3>Professionally Designed</h3>
                 <p>Modern layouts built for real businesses.</p>
               </div>
-              <div class="trust-item">
-                <div class="trust-icon">
+              <div className="trust-item">
+                <div className="trust-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 6h16M4 12h10M4 18h16" /></svg>
                 </div>
                 <h3>Fully Customised</h3>
                 <p>Your branding, content and imagery.</p>
               </div>
-              <div class="trust-item">
-                <div class="trust-icon">
+              <div className="trust-item">
+                <div className="trust-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="6" y="2" width="12" height="20" rx="2" /><path d="M10 18h4" /></svg>
                 </div>
                 <h3>Mobile Responsive</h3>
                 <p>Looks great across every screen.</p>
               </div>
-              <div class="trust-item">
-                <div class="trust-icon">
+              <div className="trust-item">
+                <div className="trust-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M13 2 3 14h7l-1 8 11-14h-7l0-6Z" /></svg>
                 </div>
                 <h3>Ready to Launch</h3>
@@ -105,143 +105,143 @@ function App() {
             </div>
           </div>
         </div>
-        <section class="featured" id="featured">
-          <div class="wrap">
-            <div class="section-head">
-              <p class="eyebrow">Explore Our Websites</p>
+        <section className="featured" id="featured">
+          <div className="wrap">
+            <div className="section-head">
+              <p className="eyebrow">Explore Our Websites</p>
               <h2>Find a website that fits your business.</h2>
               <p>Start with a design you love. We'll customise it to make it yours.</p>
             </div>
-            <div class="cards-grid">
-              <div class="card">
-                <div class="card-thumb"><span class="tag">Engineering</span></div>
+            <div className="cards-grid">
+              <div className="card">
+                <div className="card-thumb"><span className="tag">Engineering</span></div>
                 <h3>Engineering Pro</h3>
                 <p>Professional website for engineering and construction companies.</p>
-                <div class="card-foot">
-                  <div class="card-price"><span>starting from</span>₦380,000</div>
-                  <a href="#" class="card-link">View Website →</a>
+                <div className="card-foot">
+                  <div className="card-price"><span>starting from</span>₦380,000</div>
+                  <Link className="card-link">View Website →</Link>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-thumb"><span class="tag">Solar &amp; Energy</span></div>
+              <div className="card">
+                <div className="card-thumb"><span className="tag">Solar &amp; Energy</span></div>
                 <h3>SolarTech</h3>
                 <p>Modern website for solar, inverter and renewable-energy businesses.</p>
-                <div class="card-foot">
-                  <div class="card-price"><span>starting from</span>₦350,000</div>
-                  <a href="#" class="card-link">View Website →</a>
+                <div className="card-foot">
+                  <div className="card-price"><span>starting from</span>₦350,000</div>
+                  <Link className="card-link">View Website →</Link>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-thumb"><span class="tag">Construction</span></div>
+              <div className="card">
+                <div className="card-thumb"><span className="tag">Construction</span></div>
                 <h3>BuildPro</h3>
                 <p>Professional website for construction and property development companies.</p>
-                <div class="card-foot">
-                  <div class="card-price"><span>starting from</span>₦400,000</div>
-                  <a href="#" class="card-link">View Website →</a>
+                <div className="card-foot">
+                  <div className="card-price"><span>starting from</span>₦400,000</div>
+                  <Link className="card-link">View Website →</Link>
                 </div>
               </div>
             </div>
-            <div class="featured-bottom">
-              <a href="#">View All Websites <span>→</span></a>
+            <div className="featured-bottom">
+              <Link>View All Websites <span>→</span></Link>
             </div>
           </div>
         </section>
-        <section class="why" id="why">
-          <div class="wrap">
-            <div class="section-head">
-              <p class="eyebrow on-dark">A Better Way To Build Your Website</p>
+        <section className="why" id="why">
+          <div className="wrap">
+            <div className="section-head">
+              <p className="eyebrow on-dark">A Better Way To Build Your Website</p>
               <h2>Skip the long, complicated website process.</h2>
               <p>You don't need to wait weeks for a website to be designed from scratch. Choose a professionally built foundation and we'll tailor it to your business.</p>
             </div>
-            <div class="steps">
-              <div class="step"><div class="step-num">01</div><h3>Choose your design</h3><p>Find a website that matches your business and style.</p></div>
-              <div class="step"><div class="step-num">02</div><h3>Make it yours</h3><p>We customise the branding, content, images and details.</p></div>
-              <div class="step"><div class="step-num">03</div><h3>Review your website</h3><p>See your finished website before it goes live.</p></div>
-              <div class="step"><div class="step-num">04</div><h3>Launch</h3><p>Once you're happy, we put your website online.</p></div>
+            <div className="steps">
+              <div className="step"><div className="step-num">01</div><h3>Choose your design</h3><p>Find a website that matches your business and style.</p></div>
+              <div className="step"><div className="step-num">02</div><h3>Make it yours</h3><p>We customise the branding, content, images and details.</p></div>
+              <div className="step"><div className="step-num">03</div><h3>Review your website</h3><p>See your finished website before it goes live.</p></div>
+              <div className="step"><div className="step-num">04</div><h3>Launch</h3><p>Once you're happy, we put your website online.</p></div>
             </div>
           </div>
         </section>
-        <section class="showcase">
-          <div class="wrap showcase-grid">
+        <section className="showcase">
+          <div className="wrap showcase-grid">
             <div>
-              <div class="section-head">
+              <div className="section-head">
                 <h2>Designed to make your business look its best.</h2>
                 <p>Every website is designed to give your customers a professional first impression — on desktop, tablet and mobile.</p>
               </div>
             </div>
-            <div class="showcase-visual">
-              <div class="device-desktop"><div class="dscreen"></div></div>
-              <div class="device-mobile"><div class="mscreen"></div></div>
+            <div className="showcase-visual">
+              <div className="device-desktop"><div className="dscreen"></div></div>
+              <div className="device-mobile"><div className="mscreen"></div></div>
             </div>
           </div>
         </section>
-        <section class="included" id="included">
-          <div class="wrap included-inner">
-            <div class="section-head">
-              <p class="eyebrow">What You Get</p>
+        <section className="included" id="included">
+          <div className="wrap included-inner">
+            <div className="section-head">
+              <p className="eyebrow">What You Get</p>
               <h2>Everything you need to get online.</h2>
               <p>A professional website without the unnecessary complexity.</p>
             </div>
-            <div class="checklist">
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Custom branding</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Your company content</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Your images</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Mobile responsive design</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Contact forms</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>WhatsApp integration</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Social media links</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Basic SEO</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Domain connection</div>
-              <div class="check-item"><span class="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Website deployment</div>
+            <div className="checklist">
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Custom branding</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Your company content</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Your images</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Mobile responsive design</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Contact forms</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>WhatsApp integration</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Social media links</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Basic SEO</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Domain connection</div>
+              <div className="check-item"><span className="check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12l5 5L20 6" /></svg></span>Website deployment</div>
             </div>
           </div>
         </section>
-        <section class="categories">
-          <div class="wrap">
-            <div class="section-head">
+        <section className="categories">
+          <div className="wrap">
+            <div className="section-head">
               <h2>Built for businesses like yours.</h2>
             </div>
-            <div class="cat-grid">
-              <a href="#" class="cat-card">Engineering <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Construction <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Solar &amp; Energy <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Real Estate <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Restaurants <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Healthcare <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Education <span class="arrow">→</span></a>
-              <a href="#" class="cat-card">Corporate <span class="arrow">→</span></a>
+            <div className="cat-grid">
+              <Link className="cat-card">Engineering <span className="arrow">→</span></Link>
+              <Link className="cat-card">Construction <span className="arrow">→</span></Link>
+              <Link className="cat-card">Solar &amp; Energy <span className="arrow">→</span></Link>
+              <Link className="cat-card">Real Estate <span className="arrow">→</span></Link>
+              <Link className="cat-card">Restaurants <span className="arrow">→</span></Link>
+              <Link className="cat-card">Healthcare <span className="arrow">→</span></Link>
+              <Link className="cat-card">Education <span className="arrow">→</span></Link>
+              <Link className="cat-card">Corporate <span className="arrow">→</span></Link>
             </div>
           </div>
         </section>
 
-        <section class="testimonials">
-          <div class="wrap">
-            <div class="section-head">
+        <section className="testimonials">
+          <div className="wrap">
+            <div className="section-head">
               <h2>Businesses we've helped get online.</h2>
             </div>
-            <div class="test-grid">
-              <div class="test-card">
-                <p class="test-quote">"Our new site went live faster than we expected, and it actually looks like us. Customers mention it all the time."</p>
-                <p class="test-name">John Doe</p>
-                <p class="test-company">Company</p>
+            <div className="test-grid">
+              <div className="test-card">
+                <p className="test-quote">"Our new site went live faster than we expected, and it actually looks like us. Customers mention it all the time."</p>
+                <p className="test-name">John Doe</p>
+                <p className="test-company">Company</p>
               </div>
-              <div class="test-card">
-                <p class="test-quote">"We didn't have to explain our business from scratch — the template already understood what we do."</p>
-                <p class="test-name">Igba Cathy</p>
-                <p class="test-company">Company</p>
+              <div className="test-card">
+                <p className="test-quote">"We didn't have to explain our business from scratch — the template already understood what we do."</p>
+                <p className="test-name">Igba Cathy</p>
+                <p className="test-company">Company</p>
               </div>
-              <div class="test-card">
-                <p class="test-quote">"Simple process, clear pricing, and the WhatsApp integration alone has brought in new enquiries."</p>
-                <p class="test-name">Amao John</p>
+              <div className="test-card">
+                <p className="test-quote">"Simple process, clear pricing, and the WhatsApp integration alone has brought in new enquiries."</p>
+                <p className="test-name">Amao John</p>
                 <p className="test-company">Company</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="faq">
-          <div class="wrap faq-inner">
-            <div class="section-head center">
+        <section className="faq">
+          <div className="wrap faq-inner">
+            <div className="section-head center">
               <h2>Frequently asked questions.</h2>
             </div>
             <div className="faq-list">
@@ -319,43 +319,43 @@ function App() {
           </div>
         </section>
 
-        <section class="final-cta">
-          <div class="wrap">
-            <p class="eyebrow on-dark">Ready to get started?</p>
+        <section className="final-cta">
+          <div className="wrap">
+            <p className="eyebrow on-dark">Ready to get started?</p>
             <h2>Your next website starts here.</h2>
             <p>Browse our collection, choose a design you love, and let us make it yours.</p>
-            <a href="#featured" class="btn btn-accent">Browse Websites <span class="arrow">→</span></a>
+            <a href="#featured" className="btn btn-accent">Browse Websites <span className="arrow">→</span></a>
           </div>
         </section>
 
         <footer id="footer">
-          <div class="wrap">
-            <div class="footer-top">
-              <div class="footer-brand">
-                <a href="#" class="brand"><span class="dot"></span>SpireTech</a>
+          <div className="wrap">
+            <div className="footer-top">
+              <div className="footer-brand">
+                <Link className="brand"><span className="dot"></span>SpireTech</Link>
                 <p>Professionally designed websites, customised for your business.</p>
               </div>
-              <div class="footer-col">
+              <div className="footer-col">
                 <h4>Explore</h4>
                 <a href="#featured">Websites</a>
                 <a href="#why">How It Works</a>
-                <a href="#">Portfolio</a>
+                <Link>Portfolio</Link>
               </div>
-              <div class="footer-col">
+              <div className="footer-col">
                 <h4>Company</h4>
-                <a href="#">About</a>
+                <Link>About</Link>
                 <a href="#footer">Contact</a>
-                <a href="#">FAQ</a>
+                <Link>FAQ</Link>
               </div>
-              <div class="footer-col">
+              <div className="footer-col">
                 <h4>Connect</h4>
-                <a href="#">WhatsApp</a>
-                <a href="#">Email</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
+                <Link>WhatsApp</Link>
+                <Link>Email</Link>
+                <Link>Instagram</Link>
+                <Link>LinkedIn</Link>
               </div>
             </div>
-            <div class="footer-bottom">
+            <div className="footer-bottom">
               <p>© 2026 SpireTech. All rights reserved.</p>
             </div>
           </div>
