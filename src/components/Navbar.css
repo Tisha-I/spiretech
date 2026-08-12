@@ -8,9 +8,6 @@
     height: 80px;
     z-index: 1000;
     background: var(--WARMOFFWHITE);
-    /* backdrop-filter: blur(10px); */
-    /* -webkit-backdrop-filter: blur(10px); */
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.08); */
 }
 
 .navbar-container {
@@ -32,13 +29,11 @@
     font-family: "Manrope", sans-serif;
     z-index: 1001;
 }
-
 .navbar-menu {
-    display: flex;
+    display:none;
     align-items: center;
     gap: 32px;
 }
-
 .navbar-menu a {
     text-decoration: none;
     color: var(--SOFTSAGE);
@@ -61,7 +56,7 @@
     transition:
         background 0.2s ease,
         transform 0.2s ease;
-        font-size: 14px;
+    font-size: 14px;
 }
 
 .navbar-menu .navbar-cta:hover {
@@ -69,29 +64,55 @@
     color: #fff;
     transform: translateY(-1px);
 }
+.navbar-menu2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
 
-/* =========================
-   HAMBURGER
-========================= */
+.navbar-menu2 a {
+    text-decoration: none;
+    color: var(--SOFTSAGE);
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    font-family: "DM Sans", sans-serif;
+}
+
+.navbar-menu2 a:hover {
+    color: #2563eb;
+}
+
+.navbar-menu2 .navbar-cta {
+    padding: 11px 20px;
+    background: var(--DEEPNAVY);
+    color: var(--SOFTSAGE);
+    border-radius: 8px;
+    font-weight: 600;
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    font-size: 14px;
+}
+
+.navbar-menu2 .navbar-cta:hover {
+    background: #2563eb;
+    color: #fff;
+    transform: translateY(-1px);
+}
 
 .navbar-toggle {
     display: none;
-
     width: 42px;
     height: 42px;
-
     padding: 8px;
-
     border: none;
     background: transparent;
-
     cursor: pointer;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
-
     z-index: 1001;
 }
 
@@ -100,17 +121,11 @@
 
     width: 24px;
     height: 2px;
-
-    background: #111;
-
+    background: var(--DEEPNAVY);
     transition:
         transform 0.3s ease,
         opacity 0.3s ease;
 }
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 768px) {
 
@@ -128,32 +143,28 @@
 
     .navbar-menu {
         position: fixed;
-
         top: 70px;
         left: 0;
-
-        width: 100%;
-
-        padding: 25px 20px 30px;
-
-        background: #fff;
-
+        width: 84%;
+        padding: 25px 8% 30px 8%;
+        background: var(--WHITE);
         display: flex;
         flex-direction: column;
         align-items: stretch;
-
         gap: 0;
-
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-
         transform: translateY(-120%);
         opacity: 0;
         visibility: hidden;
-
         transition:
             transform 0.3s ease,
             opacity 0.3s ease,
             visibility 0.3s ease;
+
+    }
+
+    .navbar-menu2 {
+        display: none;
     }
 
     .navbar-menu.active {
@@ -164,22 +175,32 @@
 
     .navbar-menu a {
         padding: 15px 5px;
-
         font-size: 16px;
-
         border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     }
 
     .navbar-menu .navbar-cta {
         margin-top: 15px;
-
         text-align: center;
-
         border: none;
     }
+    .navbar-menu2.active {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
 
-    /* Hamburger animation */
+    .navbar-menu2 a {
+        padding: 15px 5px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
 
+    .navbar-menu2 .navbar-cta {
+        margin-top: 15px;
+        text-align: center;
+        border: none;
+    }
     .navbar-toggle.active span:nth-child(1) {
         transform: translateY(7px) rotate(45deg);
     }
