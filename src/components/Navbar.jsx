@@ -18,7 +18,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
 
-        <Link to="/" className="navbar-logo" onClick={closeMenu}>
+        <Link
+          to="/"
+          className="navbar-logo"
+          onClick={closeMenu}
+        >
           SpireTech
         </Link>
 
@@ -44,7 +48,7 @@ const Navbar = () => {
           {/* <div> */}
           {/* <div className={`navbar-menu ${isOpen ? "active" : ""}`}> */}
           <Link
-            to="/contact"
+            to="/websites"
             className="navbar-cta"
             onClick={closeMenu}
           >
@@ -57,7 +61,7 @@ const Navbar = () => {
           <Link to="/" onClick={closeMenu}>
             Home
           </Link>
-          <Link to="/websites" onClick={closeMenu}>
+          <Link to="/Websites" onClick={closeMenu}>
             Websites
           </Link>
           <Link to="/services" onClick={closeMenu}>
@@ -74,7 +78,7 @@ const Navbar = () => {
         {/* <div> */}
         <div className={`navbar-menu2 ${isOpen ? "active" : ""}`}>
           <Link
-            to="/contact"
+            to="/websites"
             className="navbar-cta"
             onClick={closeMenu}
           >

@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--CHARCOAL);
+    background: var(--WARMOFFWHITE);
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Manrope', sans-serif;
+    color: var(--DEEPNAVY);
+}
+
+.eyebrow {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--CHARCOAL);
+    margin-bottom: 14px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px 22px;
+    border-radius: 9px;
+    WHITE-space: nowrap;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    transition: background .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn-primary {
+    background: var(--DEEPNAVY);
+    color: var(--WHITE);
+}
+
+.btn-primary:hover {
+    background: var(--SOFTSAGE);
+    color: var(--DEEPNAVY);
+}
+
+.arrow {
+    transition: transform .2s ease;
+    display: inline-block;
+}
+
+.btn:hover .arrow {
+    transform: translateX(3px);
+}
+
+.page-hero {
+    background: var(--WARMOFFWHITE);
+    padding: 80px 0 64px;
+}
+
+.page-hero h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    max-width: 600px;
+}
+
+.page-hero p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--CHARCOAL);
+    margin-top: 18px;
+    max-width: 520px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    background: var(--WHITE);
+    padding: 70px 0 80px 0;
+    justify-content: center;
+}
+
+.contact-grid {
+    display: flex;
+    max-width: 700px;
+    grid-template-columns: 1fr;
+    gap: 56px;
+    align-items: start;
+}
+
+.form-card {
+    background: var(--WARMOFFWHITE);
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--DEEPNAVY);
+    margin-bottom: 8px;
+}
+
+.field input,
+.field select,
+.field textarea {
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: var(--DEEPNAVY);
+    background: var(--WHITE);
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    padding: 13px 15px;
+    transition: border-color .2s ease;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+    outline: none;
+    border-color: var(--SOFTSAGE);
+    box-shadow: 0 0 0 3px rgba(183, 215, 168, .35);
+}
+
+.field textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.field select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23374151'><path d='M5.5 7.5l4.5 4.5 4.5-4.5' stroke='%23374151' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 16px;
+    padding-right: 38px;
+}
+
+.form-submit {
+    width: 100%;
+    margin-top: 6px;
+    padding: 15px 22px;
+}
+
+.form-note {
+    font-size: 13px;
+    color: var(--CHARCOAL);
+    margin-top: 14px;
+    text-align: center;
+}
+
+.direct-card {
+    background: var(--DEEPNAVY);
+    border-radius: 20px;
+    padding: 36px;
+    margin-bottom: 20px;
+}
+
+.direct-card h3 {
+    color: var(--WHITE);
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.direct-card h4 {
+    color: var(--SOFTGREY);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.direct-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 0;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.direct-item:first-of-type {
+    border-top: none;
+}
+
+.direct-icon {
+    width: 38px;
+    height: 38px;
+    flex: none;
+    border-radius: 10px;
+    background: rgba(183, 215, 168, .18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direct-icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: var(--SOFTSAGE);
+}
+
+.direct-text .direct-label {
+    font-size: 12px;
+    color: var(--grey);
+    opacity: .8;
+    margin-bottom: 2px;
+}
+
+.direct-text .direct-value {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--WHITE);
+}
+
+.direct-item a.direct-value {
+    transition: color .2s ease;
+}
+
+.direct-item a.direct-value:hover {
+    color: var(--SOFTSAGE);
+}
+
+.whatsapp-note {
+    background: rgba(183, 215, 168, .25);
+    border: 1px solid var(--SOFTSAGE);
+    border-radius: 16px;
+    padding: 22px 24px;
+}
+
+.whatsapp-note p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--DEEPNAVY);
+}
+
+.whatsapp-note strong {
+    font-weight: 700;
+}
+
+@media (max-width:900px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width:600px) {
+    .page-hero h1 {
+        font-size: 32px;
+    }
+
+    .page-hero {
+        padding: 56px 0 48px;
+    }
+
+    .form-card {
+        padding: 26px;
+    }
+
+    .field-row {
+        grid-template-columns: 1fr;
+    }
+
+    .direct-card {
+        padding: 26px;
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    * {
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}

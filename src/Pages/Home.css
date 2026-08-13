@@ -838,6 +838,23 @@ footer {
     padding-bottom: 56px;
 }
 
+.brand .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--SOFTSAGE);
+}
+
+.brand {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--DEEPNAVY);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .footer-brand .brand {
     color: var(--WHITE);
 }
@@ -926,9 +943,6 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    .menu-toggle {
-        display: block;
-    }
 }
 
 @media (max-width:520px) {
