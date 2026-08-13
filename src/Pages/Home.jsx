@@ -72,7 +72,7 @@ function Home() {
           </div>
         </section>
         <div className="home2">
-          <div className="trust">
+          <section className="trust">
             <div className="wrap trust-grid">
               <div className="trust-item">
                 <div className="trust-icon">
@@ -103,7 +103,7 @@ function Home() {
                 <p>A faster route to getting online.</p>
               </div>
             </div>
-          </div>
+          </section>
         </div>
         <section className="featured" id="featured">
           <div className="wrap">
@@ -179,7 +179,7 @@ function Home() {
           <div className="wrap included-inner">
             <div className="section-head">
               <p className="eyebrow">What You Get</p>
-              <h2>Everything you need to get online.</h2>
+              <h2>Everything you need to go live.</h2>
               <p>A professional website without the unnecessary complexity.</p>
             </div>
             <div className="checklist">
