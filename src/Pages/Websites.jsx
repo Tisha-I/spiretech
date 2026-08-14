@@ -233,8 +233,8 @@ function Websites() {
                             to="/contact"
                             className="btn"
                             style={{
-                                background: "var(--sage)",
-                                color: "var(--navy)"
+                                background: "var(--SOFTSAGE)",
+                                color: "var(--DEEPNAVY)"
                             }}
                         >
                             Request Custom Website
