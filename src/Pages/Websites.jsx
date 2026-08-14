@@ -15,7 +15,8 @@ function Websites() {
             tag: "Engineering",
             title: "Engineering Pro",
             category: "Engineering & Construction",
-            price: "₦380,000"
+            price: "₦380,000",
+            link: "/#"
         },
         {
             id: 2,
@@ -23,6 +24,7 @@ function Websites() {
             tag: "Solar & Energy",
             title: "SolarTech",
             category: "Solar & Renewable Energy",
+            link: "/#",
             price: "₦350,000"
         },
         {
@@ -31,7 +33,8 @@ function Websites() {
             tag: "Construction",
             title: "BuildPro",
             category: "Construction & Property Development",
-            price: "₦400,000"
+            price: "₦400,000",
+            link: "/#"
         },
         {
             id: 4,
@@ -39,7 +42,8 @@ function Websites() {
             tag: "Real Estate",
             title: "Real Estate Pro",
             category: "Real Estate & Property Listings",
-            price: "₦370,000"
+            price: "₦370,000",
+            link: "/#"
         },
         {
             id: 5,
@@ -47,7 +51,8 @@ function Websites() {
             tag: "Restaurants",
             title: "TableFirst",
             category: "Restaurants & Hospitality",
-            price: "₦320,000"
+            price: "₦320,000",
+            link: "/#"
         },
         {
             id: 6,
@@ -55,7 +60,8 @@ function Websites() {
             tag: "Healthcare",
             title: "ClinicCare",
             category: "Healthcare & Clinics",
-            price: "₦360,000"
+            price: "₦360,000",
+            link: "/#"
         },
         {
             id: 7,
@@ -63,7 +69,8 @@ function Websites() {
             tag: "Education",
             title: "EduHub",
             category: "Schools & Education",
-            price: "₦340,000"
+            price: "₦340,000",
+            link: "/#"
         },
         {
             id: 8,
@@ -71,7 +78,8 @@ function Websites() {
             tag: "Corporate",
             title: "Corporate Edge",
             category: "Corporate & Professional Services",
-            price: "₦390,000"
+            price: "₦390,000",
+            link: "/#"
         }
     ];
 
@@ -154,7 +162,7 @@ function Websites() {
                             {filteredWebsites.map((website) => (
 
                                 <Link
-                                    to="#"
+                                    to={website.link}
                                     className="card"
                                     key={website.id}
                                 >
