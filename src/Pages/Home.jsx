@@ -179,102 +179,109 @@ function Home() {
                     <div className="cards-grid">
 
                         <div className="card">
-                            <div className="card-thumb">
-                                <span className="tag">
-                                    Engineering
-                                </span>
-                            </div>
-
-                            <h3>Engineering Pro</h3>
-
-                            <p>
-                                Professional website for engineering and
-                                construction companies.
-                            </p>
-
-                            <div className="card-foot">
-                                <div className="card-price">
-                                    <span>starting from</span>
-                                    ₦380,000
-                                </div>
-
-                                <Link
-                                    to="/websites/engineering-pro"
-                                    className="card-link"
-                                >
-                                    View Website →
-                                </Link>
-                            </div>
+                            <div className="card-thumb"
+                                style={{
+                                    background: "url('../../public/beautydemoBG.png')",
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                    backgroundRepeat: "no-repeat",
+                                }}
+                            >
+                            <span className="tag">
+                                Engineering
+                            </span>
                         </div>
 
-                        <div className="card">
-                            <div className="card-thumb">
-                                <span className="tag">
-                                    Solar &amp; Energy
-                                </span>
+                        <h3>Beauty Pro</h3>
+
+                        <p>
+                            Professional website for engineering and
+                            construction companies.
+                        </p>
+
+                        <div className="card-foot">
+                            <div className="card-price">
+                                <span>starting from</span>
+                                ₦80,000
                             </div>
 
-                            <h3>SolarTech</h3>
-
-                            <p>
-                                Modern website for solar, inverter and
-                                renewable-energy businesses.
-                            </p>
-
-                            <div className="card-foot">
-                                <div className="card-price">
-                                    <span>starting from</span>
-                                    ₦350,000
-                                </div>
-
-                                <Link
-                                    to="/websites/solar-tech"
-                                    className="card-link"
-                                >
-                                    View Website →
-                                </Link>
-                            </div>
+                            <Link
+                                to="https://beauty-demo1.vercel.app/"
+                                className="card-link"
+                            >
+                                View Website →
+                            </Link>
                         </div>
-
-                        <div className="card">
-                            <div className="card-thumb">
-                                <span className="tag">
-                                    Construction
-                                </span>
-                            </div>
-
-                            <h3>BuildPro</h3>
-
-                            <p>
-                                Professional website for construction and
-                                property development companies.
-                            </p>
-
-                            <div className="card-foot">
-                                <div className="card-price">
-                                    <span>starting from</span>
-                                    ₦400,000
-                                </div>
-
-                                <Link
-                                    to="/websites/build-pro"
-                                    className="card-link"
-                                >
-                                    View Website →
-                                </Link>
-                            </div>
-                        </div>
-
                     </div>
 
-                    <div className="featured-bottom">
-                        <Link to="/websites">
-                            View All Websites <span>→</span>
-                        </Link>
+                    <div className="card">
+                        <div className="card-thumb">
+                            <span className="tag">
+                                Solar &amp; Energy
+                            </span>
+                        </div>
+
+                        <h3>SolarTech</h3>
+
+                        <p>
+                            Modern website for solar, inverter and
+                            renewable-energy businesses.
+                        </p>
+
+                        <div className="card-foot">
+                            <div className="card-price">
+                                <span>starting from</span>
+                                ₦350,000
+                            </div>
+
+                            <Link
+                                to="/websites/solar-tech"
+                                className="card-link"
+                            >
+                                View Website →
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <div className="card-thumb">
+                            <span className="tag">
+                                Construction
+                            </span>
+                        </div>
+
+                        <h3>BuildPro</h3>
+
+                        <p>
+                            Professional website for construction and
+                            property development companies.
+                        </p>
+
+                        <div className="card-foot">
+                            <div className="card-price">
+                                <span>starting from</span>
+                                ₦400,000
+                            </div>
+
+                            <Link
+                                to="/websites/build-pro"
+                                className="card-link"
+                            >
+                                View Website →
+                            </Link>
+                        </div>
                     </div>
 
                 </div>
-            </section>
+
+                <div className="featured-bottom">
+                    <Link to="/websites">
+                        View All Websites <span>→</span>
+                    </Link>
+                </div>
+
+            </div>
+        </section >
 
             <section className="why" id="why">
                 <div className="wrap">
@@ -649,9 +656,8 @@ function Home() {
                     <div className="faq-list">
 
                         <div
-                            className={`faq-item ${
-                                openIndex === 0 ? 'open' : ''
-                            }`}
+                            className={`faq-item ${openIndex === 0 ? 'open' : ''
+                                }`}
                         >
                             <button
                                 type="button"
@@ -672,9 +678,8 @@ function Home() {
                         </div>
 
                         <div
-                            className={`faq-item ${
-                                openIndex === 1 ? 'open' : ''
-                            }`}
+                            className={`faq-item ${openIndex === 1 ? 'open' : ''
+                                }`}
                         >
                             <button
                                 type="button"
@@ -695,9 +700,8 @@ function Home() {
                         </div>
 
                         <div
-                            className={`faq-item ${
-                                openIndex === 2 ? 'open' : ''
-                            }`}
+                            className={`faq-item ${openIndex === 2 ? 'open' : ''
+                                }`}
                         >
                             <button
                                 type="button"
@@ -718,9 +722,8 @@ function Home() {
                         </div>
 
                         <div
-                            className={`faq-item ${
-                                openIndex === 3 ? 'open' : ''
-                            }`}
+                            className={`faq-item ${openIndex === 3 ? 'open' : ''
+                                }`}
                         >
                             <button
                                 type="button"
@@ -742,9 +745,8 @@ function Home() {
                         </div>
 
                         <div
-                            className={`faq-item ${
-                                openIndex === 4 ? 'open' : ''
-                            }`}
+                            className={`faq-item ${openIndex === 4 ? 'open' : ''
+                                }`}
                         >
                             <button
                                 type="button"

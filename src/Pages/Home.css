@@ -424,6 +424,7 @@ h3 {
     background: linear-gradient(150deg, var(--SOFTGREY) 0%, var(--WARMOFFWHITE) 60%, var(--SOFTSAGE) 130%);
     position: relative;
     overflow: hidden;
+    /* background-image: url('../../public/beautydemoBG.png'); */
 }
 
 .card-thumb .tag {
