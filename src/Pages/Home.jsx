@@ -2,6 +2,7 @@ import './Home.css';
 import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import beautydemoBG from '../../public/beautydemoBG.png';
 
 function Home() {
     const [openIndex, setOpenIndex] = useState(null);
@@ -181,7 +182,7 @@ function Home() {
                         <div className="card">
                             <div className="card-thumb"
                                 style={{
-                                    backgroundImage: "url('/../../public/beautydemoBG.png')",
+                                    backgroundImage: `url(${beautydemoBG})`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                     backgroundRepeat: "no-repeat",
