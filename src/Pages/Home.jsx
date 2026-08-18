@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import beautydemoBG from '../../public/beautydemoBG.png';
+import restaurantdemoBG from '../../public/restaurantdemoBG.png';
 
 function Home() {
     const [openIndex, setOpenIndex] = useState(null);
@@ -194,8 +195,8 @@ function Home() {
                                     backgroundRepeat: "no-repeat",
                                 }}
                             >
-                                <span className="card-thumb tag">
-                                    Engineering
+                                <span className="tag">
+                                    Beauty
                                 </span>
                             </div>
 
@@ -222,13 +223,25 @@ function Home() {
                         </div>
 
                         <div className="card">
-                            <div className="card-thumb">
+                            <div
+                                style={{
+                                    height: "150px",
+                                    borderRadius: "12px",
+                                    marginBottom: "20px",
+                                    position: "relative",
+                                    overflow: "hidden",
+                                    backgroundImage: `url(${restaurantdemoBG})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                    backgroundRepeat: "no-repeat",
+                                }}
+                            >
                                 <span className="tag">
-                                    Solar &amp; Energy
+                                    Restaurant
                                 </span>
                             </div>
 
-                            <h3>SolarTech</h3>
+                            <h3>Restaurant Demo</h3>
 
                             <p>
                                 Modern website for solar, inverter and
@@ -238,11 +251,11 @@ function Home() {
                             <div className="card-foot">
                                 <div className="card-price">
                                     <span>starting from</span>
-                                    ₦350,000
+                                    ₦80,000
                                 </div>
 
                                 <Link
-                                    to="/websites/solar-tech"
+                                    to="https://restaurant-demo-swart-phi.vercel.app/"
                                     className="card-link"
                                 >
                                     View Website →
