@@ -181,7 +181,7 @@ function Home() {
                         <div className="card">
                             <div className="card-thumb"
                                 style={{
-                                    backgroundImage: "url('../../public/beautydemoBG.png')",
+                                    backgroundImage: "url('/../../public/beautydemoBG.png')",
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                     backgroundRepeat: "no-repeat",
